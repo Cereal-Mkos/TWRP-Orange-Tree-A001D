@@ -11,8 +11,8 @@
 /recovery       emmc    /dev/block/bootdevice/by-name/recovery                                                      flags=backup=1
 /cache          ext4    /dev/block/bootdevice/by-name/cache
 /data           ext4    /dev/block/bootdevice/by-name/userdata                                                      flags=encryptable=footer
-/system         ext4    /dev/block/bootdevice/by-name/system
-/system_image   emmc    /dev/block/bootdevice/by-name/system
+/system         ext4    /dev/block/bootdevice/by-name/system                                                        flags=display="System"
+/system_image   emmc    /dev/block/bootdevice/by-name/system                                                        flags=backup=1;flashimg
 /vendor         ext4    /dev/block/bootdevice/by-name/vendor                                                        flags=display="Vendor";backup=1;wipeingui
 /vendor_image   emmc    /dev/block/bootdevice/by-name/vendor
 /persist        ext4    /dev/block/bootdevice/by-name/persist                                                       flags=display="Persist";mounttodecrypt
