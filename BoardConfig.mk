@@ -68,7 +68,7 @@ TARGET_KERNEL_SOURCE := kernel/asus/ASUS_A001D
 TARGET_KERNEL_CONFIG := ASUS_A001D_defconfig
 
 # Ramdisk compression
-LZMA_RAMDISK_TARGETS := recovery
+#LZMA_RAMDISK_TARGETS := recovery
 
 # Platform
 TARGET_BOARD_PLATFORM := msm8953
