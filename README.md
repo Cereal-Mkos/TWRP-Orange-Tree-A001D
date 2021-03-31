@@ -9,4 +9,4 @@ git clone https://github.com/TeamWin/android_device_qcom_twrp-common.git -b andr
 
 # DELETE a pasta no diretório 
 
-# /PB/vendor/qcom/opensource/commonsys/cryptfs_hw
+# /Orange/vendor/qcom/opensource/commonsys/cryptfs_hw
