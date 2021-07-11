@@ -17,5 +17,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_ASUS_A001D.mk
+     $(LOCAL_DIR)/omni_asus_A001D.mk
 COMMON_LUNCH_CHOICES
